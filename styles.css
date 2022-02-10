@@ -2,6 +2,10 @@ body {
     margin: 0;
     background: lightgrey;
 }
+/* .navbar{
+    position: fixed;
+    
+} */
 
 :root {
     --main-color:black;
@@ -9,23 +13,33 @@ body {
 
 .bg {
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
     filter: blur(8px);
     }
 
-    .card-img-top{
-        padding: 50px;
+.container {
+        display: grid;
+        place-content: center;
+      }
+
+.foto{
+        margin-top: 20px;
+        padding: 5px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        justify-content: start;
         width:300px;
         height:300px;
         border-radius:150px;
+     
     }
+
+.bghome{
+    margin-top: 250px;
+}
 
 .bg-text {
         color: var(--main-color);
@@ -33,9 +47,9 @@ body {
         border: 3px solid #f1f1f1;
         position:relative ;
         top: 10%;
-        left: 45%;
+        left: 40%;
         transform: translate(-50%, -50%);
-        z-index: 2;
+        /* z-index: 2; */
         width: 90%;
         padding: 20px;
         text-align: center;
@@ -44,8 +58,9 @@ body {
 }
 
 .custom-section {
-    padding-top: 50px;
+    padding-top: 10px;
 }
+
 .cb {
     display: flex;
     align-items: center;
@@ -53,8 +68,19 @@ body {
     flex-direction: column;
 }
 
+.pro{
+    float: left;
+    margin-right:10px;
+    width:200px;
+    height:200px;
+    border-radius:150px;
+}
+
 .card-text {
+    float: right;
     font-family: 'New Tegomin', serif;
+    width:500px;
+    height:300px;
 }
 
 
@@ -63,6 +89,11 @@ footer {
     padding: 20px 0;
     color: white;
     margin: 40px;
+}
+
+.contact{
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
 .home{

@@ -68,6 +68,10 @@ body {
     flex-direction: column;
 }
 
+.container-project {
+    display: flex;
+}
+
 .pro{
     float: left;
     margin-right:10px;
@@ -77,8 +81,8 @@ body {
 }
 
 .card-text {
-    float: right;
-    font-family: 'New Tegomin', serif;
+    float: left;
+    font-family: 'New Tegomin';
     width:500px;
     height:300px;
 }

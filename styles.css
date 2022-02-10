@@ -107,6 +107,35 @@ footer {
     margin-left: 20px;
 }
 
+.bg-skills {
+    color: var(--main-color);
+    font-weight:normal;
+    border-style: double;
+    border-color: black;
+    position:relative ;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 20px;
+    /* text-align: center; */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.soft-skills{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .home{
     background-image: url("./images/fondo4.jpg") ;
 }

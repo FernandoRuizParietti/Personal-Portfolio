@@ -7,6 +7,11 @@ body {
     
 } */
 
+.navbar {
+    position: fixed;
+    z-index: 1;
+}
+
 :root {
     --main-color:black;
 }
@@ -26,7 +31,8 @@ body {
       }
 
 .foto{
-        margin-top: 20px;
+        margin-top: 100px;
+        border-style: double;
         padding: 5px;
         display: flex;
         align-items: center;
@@ -44,7 +50,8 @@ body {
 .bg-text {
         color: var(--main-color);
         font-weight:normal;
-        border: 3px solid #f1f1f1;
+        border-style: double;
+        border-color: black;
         position:relative ;
         top: 10%;
         left: 40%;
@@ -53,7 +60,7 @@ body {
         width: 90%;
         padding: 20px;
         text-align: center;
-        font-family: 'Rubik Mono One';
+        font-family: 'Roboto', sans-serif;
 
 }
 

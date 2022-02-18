@@ -2,13 +2,10 @@ body {
     margin: 0;
     background: lightgrey;
 }
-/* .navbar{
-    position: fixed;
-    
-} */
 
 .navbar {
     position: fixed;
+    width: 100%;
     z-index: 1;
 }
 

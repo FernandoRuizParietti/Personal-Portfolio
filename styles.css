@@ -132,6 +132,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    
 }
 .flecha { 
  display: flex;
@@ -141,7 +142,7 @@ body {
  width:50px;
  height:50px;
  border-radius:150px;
- margin-bottom: 20px;
+ margin-top: 40px;
  
 }
 

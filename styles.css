@@ -95,14 +95,20 @@ body {
     height:200px;
 }
 
-
-
-.contact{
-    align-items: center;
-    margin-top: 40px;
-    margin-left: 20px;
+.caja{
+ padding-top: 100px;
 }
 
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.soft-skills{
+    display: flex;
+    flex-direction: column;
+
+}
 .bg-skills {
     align-items: center;
     color: var(--main-color);
@@ -139,23 +145,14 @@ body {
  
 }
 
-.caja{
- padding-top: 100px;
-}
-
-.skills{
-    display: flex;
-    flex-direction: column;
-}
-
-.soft-skills{
-    display: flex;
-    flex-direction: column;
-
-}
 
 .home{
     background-image: url("./images/fondo4.jpg") ;
+}
+.contact{
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
 }
     footer {
         background: black;

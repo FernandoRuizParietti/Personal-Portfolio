@@ -30,11 +30,11 @@ body {
       }
 
 .foto{
+        align-items: center;
         margin-top: 100px;
         border-style: double;
         padding: 5px;
         display: flex;
-        align-items: center;
         justify-content: start;
         width:300px;
         height:300px;
@@ -47,14 +47,15 @@ body {
 }
 
 .bg-text {
+        align-items: center;
         color: var(--main-color);
         font-weight:normal;
         border-style: double;
         border-color: black;
         position:relative ;
         top: 10%;
-        left: 40%;
-        transform: translate(-50%, -50%);
+        /* left: 43%; */
+        /* transform: translate(-50%, -50%); */
         /* z-index: 2; */
         width: 90%;
         padding: 20px;
@@ -95,27 +96,23 @@ body {
 }
 
 
-footer {
-    background: black;
-    padding: 20px 0;
-    color: white;
-    margin: 40px;
-}
 
 .contact{
+    align-items: center;
     margin-top: 40px;
     margin-left: 20px;
 }
 
 .bg-skills {
+    align-items: center;
     color: var(--main-color);
     font-weight:normal;
     border-style: double;
     border-color: black;
     position:relative ;
     top: 10%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    /* left: 40%; */
+    /* transform: translate(-50%, -50%); */
     width: 90%;
     padding: 20px;
     /* text-align: center; */
@@ -160,3 +157,10 @@ footer {
 .home{
     background-image: url("./images/fondo4.jpg") ;
 }
+    footer {
+        background: black;
+        padding: 5px 0;
+        color: white;
+        margin: 40px;
+        width: 100%;
+    }

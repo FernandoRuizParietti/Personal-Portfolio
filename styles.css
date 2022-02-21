@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background: lightgrey;
+    flex-wrap: wrap;
 }
 
 .navbar {
@@ -11,6 +12,7 @@ body {
 
 :root {
     --main-color:black;
+    min-width: 530px;
 }
 
 .bg {
@@ -36,7 +38,7 @@ body {
         justify-content: start;
         width:300px;
         height:300px;
-        border-radius:150px;
+        border-radius:100px;
      
     }
 
@@ -74,6 +76,7 @@ body {
 
 .container-project {
     display: flex;
+    margin-top: 70px;
 }
 
 .pro{
